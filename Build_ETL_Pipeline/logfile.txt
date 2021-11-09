@@ -1,0 +1,12 @@
+2021-Nov-05-07:46:00,Start Extract Part
+2021-Nov-05-07:46:00,Start Webscraping Wikipedia Happiness Data
+2021-Nov-05-07:46:02,Finished Webscraping Wikipedia Happiness Data
+2021-Nov-05-07:46:02,Start Getting Population Data per Country from RapidAPI
+2021-Nov-05-07:47:20,Finished Getting Population Data per Country from RapidAPI
+2021-Nov-05-07:47:20,Start Getting Average Age Data per Country from Worlddata
+2021-Nov-05-07:47:21,Finished Getting Average Age Data per Country from Worlddata
+2021-Nov-05-07:47:21,Extract Part of Pipeline Finished
+2021-Nov-05-07:47:21,Start Transform Part of Pipeline
+2021-Nov-05-07:47:21,Finished Transform Part of Pipeline
+2021-Nov-05-07:47:21,Start Load Part of Pipeline
+2021-Nov-05-07:47:21,Finished Load Part of Pipeline
