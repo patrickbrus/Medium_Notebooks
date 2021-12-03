@@ -10,3 +10,18 @@
 2021-Nov-05-07:47:21,Finished Transform Part of Pipeline
 2021-Nov-05-07:47:21,Start Load Part of Pipeline
 2021-Nov-05-07:47:21,Finished Load Part of Pipeline
+2021-Dec-03-07:05:42,Start Extract Part
+2021-Dec-03-07:05:42,Start Webscraping Wikipedia Happiness Data
+2021-Dec-03-07:05:44,Finished Webscraping Wikipedia Happiness Data
+2021-Dec-03-07:05:44,Start Getting Population Data per Country from RapidAPI
+2021-Dec-03-07:08:28,Finished Getting Population Data per Country from RapidAPI
+2021-Dec-03-07:26:19,Finished Webscraping Wikipedia Happiness Data
+2021-Dec-03-07:26:42,Start Getting Population Data per Country from RapidAPI
+2021-Dec-03-07:28:01,Finished Getting Population Data per Country from RapidAPI
+2021-Dec-03-07:28:25,Start Getting Average Age Data per Country from Worlddata
+2021-Dec-03-07:28:27,Finished Getting Average Age Data per Country from Worlddata
+2021-Dec-03-07:28:27,Extract Part of Pipeline Finished
+2021-Dec-03-07:28:28,Start Transform Part of Pipeline
+2021-Dec-03-07:28:29,Finished Transform Part of Pipeline
+2021-Dec-03-07:28:30,Start Load Part of Pipeline
+2021-Dec-03-07:28:31,Finished Load Part of Pipeline
