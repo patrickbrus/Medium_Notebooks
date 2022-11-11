@@ -976,3 +976,260 @@
 2022-11-10 07:30:56,281:INFO:Checking exceptions
 2022-11-10 07:30:56,281:INFO:Preloading libraries
 2022-11-10 07:30:56,281:INFO:Preparing display monitor
+2022-11-11 07:46:18,606:INFO:PyCaret Supervised Module
+2022-11-11 07:46:18,607:INFO:ML Usecase: classification
+2022-11-11 07:46:18,607:INFO:version 2.3.10
+2022-11-11 07:46:18,607:INFO:Initializing setup()
+2022-11-11 07:46:18,607:INFO:setup(target=default, ml_usecase=classification, available_plots={'parameter': 'Hyperparameters', 'auc': 'AUC', 'confusion_matrix': 'Confusion Matrix', 'threshold': 'Threshold', 'pr': 'Precision Recall', 'error': 'Prediction Error', 'class_report': 'Class Report', 'rfe': 'Feature Selection', 'learning': 'Learning Curve', 'manifold': 'Manifold Learning', 'calibration': 'Calibration Curve', 'vc': 'Validation Curve', 'dimension': 'Dimensions', 'feature': 'Feature Importance', 'feature_all': 'Feature Importance (All)', 'boundary': 'Decision Boundary', 'lift': 'Lift Chart', 'gain': 'Gain Chart', 'tree': 'Decision Tree', 'ks': 'KS Statistic Plot'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=constant, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=True, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=True, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=True, multicollinearity_threshold=0.9, remove_perfect_collinearity=True, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=[['BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6'], ['PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6']], group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=True, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=True, data_split_stratify=False, fold_strategy=stratifiedkfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=True, custom_pipeline=None, html=True, session_id=None, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-11-11 07:46:18,607:INFO:Checking environment
+2022-11-11 07:46:18,607:INFO:python_version: 3.9.7
+2022-11-11 07:46:18,607:INFO:python_build: ('default', 'Sep 16 2021 13:09:58')
+2022-11-11 07:46:18,608:INFO:machine: x86_64
+2022-11-11 07:46:18,608:INFO:platform: Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.27
+2022-11-11 07:46:18,608:INFO:Memory: svmem(total=8342130688, available=3486380032, percent=58.2, used=4160897024, free=614649856, active=1096753152, inactive=6054649856, buffers=416616448, cached=3149967360, shared=389935104, slab=363331584)
+2022-11-11 07:46:18,608:INFO:Physical Core: 6
+2022-11-11 07:46:18,608:INFO:Logical Core: 12
+2022-11-11 07:46:18,608:INFO:Checking libraries
+2022-11-11 07:46:18,608:INFO:pd==1.5.1
+2022-11-11 07:46:18,608:INFO:numpy==1.20.3
+2022-11-11 07:46:18,608:INFO:sklearn==0.23.2
+2022-11-11 07:46:18,609:INFO:lightgbm==3.3.3
+2022-11-11 07:46:18,609:WARNING:catboost not found
+2022-11-11 07:46:18,609:WARNING:xgboost not found
+2022-11-11 07:46:18,609:INFO:mlflow==1.30.0
+2022-11-11 07:46:18,610:INFO:Checking Exceptions
+2022-11-11 07:46:18,610:INFO:Declaring global variables
+2022-11-11 07:46:18,610:INFO:USI: a6b4
+2022-11-11 07:46:18,610:INFO:pycaret_globals: {'imputation_regressor', 'X_train', 'stratify_param', 'target_param', 'fix_imbalance_param', 'y_test', 'USI', '_all_metrics', 'y_train', 'X_test', 'experiment__', 'fold_groups_param', 'data_before_preprocess', 'exp_name_log', 'dashboard_logger', '_all_models_internal', 'html_param', 'transform_target_method_param', 'imputation_classifier', 'fold_param', 'X', '_available_plots', '_internal_pipeline', 'y', '_gpu_n_jobs_param', 'n_jobs_param', 'fold_shuffle_param', '_ml_usecase', 'create_model_container', 'log_plots_param', 'gpu_param', 'prep_pipe', 'master_model_container', 'seed', 'display_container', '_all_models', 'iterative_imputation_iters_param', 'fix_imbalance_method_param', 'fold_generator', 'logging_param', 'fold_groups_param_full', 'transform_target_param', 'pycaret_globals'}
+2022-11-11 07:46:18,610:INFO:Preparing display monitor
+2022-11-11 07:46:18,610:INFO:Preparing display monitor
+2022-11-11 07:46:18,621:INFO:Importing libraries
+2022-11-11 07:46:18,621:INFO:Copying data for preprocessing
+2022-11-11 07:46:18,629:INFO:Declaring preprocessing parameters
+2022-11-11 07:46:18,629:WARNING:cuML not found
+2022-11-11 07:46:18,629:WARNING:cuML is outdated or not found. Required version is >=0.15, got 3.3.3
+2022-11-11 07:46:18,635:INFO:Creating preprocessing pipeline
+2022-11-11 07:46:18,672:INFO:Preprocessing pipeline created successfully
+2022-11-11 07:46:18,672:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-11-11 07:46:18,673:INFO:Creating global containers
+2022-11-11 07:46:18,674:INFO:Internal pipeline: Pipeline(memory=None,
+         steps=[('fix_imbalance',
+                 SMOTE(k_neighbors=5, n_jobs=None, random_state=6069,
+                       sampling_strategy='auto'))],
+         verbose=False)
+2022-11-11 08:09:27,625:WARNING:Couldn't import cuml.linear_model.LogisticRegression
+2022-11-11 08:09:27,655:WARNING:Couldn't import cuml.neighbors.KNeighborsClassifier
+2022-11-11 08:09:27,659:WARNING:Couldn't import cuml.MBSGDClassifier
+2022-11-11 08:09:27,660:WARNING:Couldn't import cuml.svm.SVC
+2022-11-11 08:09:27,680:WARNING:Couldn't import cuml.linear_model
+2022-11-11 08:09:27,684:WARNING:Couldn't import cuml.ensemble
+2022-11-11 08:09:27,689:WARNING:Couldn't import xgboost.XGBClassifier
+2022-11-11 08:09:27,712:WARNING:Couldn't import catboost.CatBoostClassifier
+2022-11-11 08:09:27,712:WARNING:Couldn't import cuml.linear_model.LogisticRegression
+2022-11-11 08:09:27,749:WARNING:Couldn't import cuml.neighbors.KNeighborsClassifier
+2022-11-11 08:09:27,749:WARNING:Couldn't import cuml.MBSGDClassifier
+2022-11-11 08:09:27,750:WARNING:Couldn't import cuml.svm.SVC
+2022-11-11 08:09:27,765:WARNING:Couldn't import cuml.linear_model
+2022-11-11 08:09:27,768:WARNING:Couldn't import cuml.ensemble
+2022-11-11 08:09:27,769:WARNING:Couldn't import xgboost.XGBClassifier
+2022-11-11 08:09:27,772:WARNING:Couldn't import catboost.CatBoostClassifier
+2022-11-11 08:09:27,772:INFO:Creating grid variables
+2022-11-11 08:09:27,784:INFO:create_model_container: 0
+2022-11-11 08:09:27,784:INFO:master_model_container: 0
+2022-11-11 08:09:27,784:INFO:display_container: 1
+2022-11-11 08:09:27,789:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='default',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_stra...
+                ('dummy', Dummify(target='default')),
+                ('fix_perfect', Remove_100(target='default')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       correlation_with_target_threshold=0.0,
+                                       target_variable='default',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-11-11 08:09:27,789:INFO:setup() succesfully completed......................................
+2022-11-11 08:09:35,391:INFO:Initializing create_model()
+2022-11-11 08:09:35,391:INFO:create_model(estimator=gbc, fold=5, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=True, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=None, return_train_score=False, kwargs={})
+2022-11-11 08:09:35,392:INFO:Checking exceptions
+2022-11-11 08:09:35,392:INFO:Preparing display monitor
+2022-11-11 08:09:35,409:INFO:Importing libraries
+2022-11-11 08:09:35,409:INFO:Copying training dataset
+2022-11-11 08:09:35,412:INFO:Defining folds
+2022-11-11 08:09:35,412:INFO:Declaring metric variables
+2022-11-11 08:09:35,419:INFO:Importing untrained model
+2022-11-11 08:09:35,427:INFO:Gradient Boosting Classifier Imported succesfully
+2022-11-11 08:09:35,445:INFO:Starting cross validation
+2022-11-11 08:09:35,447:INFO:Cross validating with StratifiedKFold(n_splits=5, random_state=None, shuffle=False), n_jobs=1
+2022-11-11 08:10:09,671:INFO:Calculating mean and std
+2022-11-11 08:10:09,672:INFO:Creating metrics dataframe
+2022-11-11 08:10:09,683:INFO:Finalizing model
+2022-11-11 08:10:18,322:INFO:Uploading results into container
+2022-11-11 08:10:18,322:INFO:Uploading model into container now
+2022-11-11 08:10:18,329:INFO:create_model_container: 1
+2022-11-11 08:10:18,329:INFO:master_model_container: 1
+2022-11-11 08:10:18,330:INFO:display_container: 2
+2022-11-11 08:10:18,330:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='deviance', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_impurity_split=None,
+                           min_samples_leaf=1, min_samples_split=2,
+                           min_weight_fraction_leaf=0.0, n_estimators=100,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=6069, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2022-11-11 08:10:18,330:INFO:create_model() succesfully completed......................................
+2022-11-11 08:10:34,685:INFO:Initializing tune_model()
+2022-11-11 08:10:34,685:INFO:tune_model(estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='deviance', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_impurity_split=None,
+                           min_samples_leaf=1, min_samples_split=2,
+                           min_weight_fraction_leaf=0.0, n_estimators=100,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=6069, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=F1, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=False, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, display=None, return_train_score=False, kwargs={})
+2022-11-11 08:10:34,685:INFO:Checking exceptions
+2022-11-11 08:10:34,686:INFO:Preparing display monitor
+2022-11-11 08:10:34,702:INFO:Copying training dataset
+2022-11-11 08:10:34,705:INFO:Checking base model
+2022-11-11 08:10:34,705:INFO:Base model : Gradient Boosting Classifier
+2022-11-11 08:10:34,712:INFO:Declaring metric variables
+2022-11-11 08:10:34,721:INFO:Defining Hyperparameters
+2022-11-11 08:10:34,823:INFO:Tuning with n_jobs=-1
+2022-11-11 08:10:34,823:INFO:Initializing RandomizedSearchCV
+2022-11-11 08:12:41,642:INFO:best_params: {'actual_estimator__subsample': 0.5, 'actual_estimator__n_estimators': 130, 'actual_estimator__min_samples_split': 9, 'actual_estimator__min_samples_leaf': 5, 'actual_estimator__min_impurity_decrease': 0.005, 'actual_estimator__max_features': 'sqrt', 'actual_estimator__max_depth': 4, 'actual_estimator__learning_rate': 0.0001}
+2022-11-11 08:12:41,643:INFO:Hyperparameter search completed
+2022-11-11 08:12:41,643:INFO:SubProcess create_model() called ==================================
+2022-11-11 08:12:41,644:INFO:Initializing create_model()
+2022-11-11 08:12:41,644:INFO:create_model(estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='deviance', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_impurity_split=None,
+                           min_samples_leaf=1, min_samples_split=2,
+                           min_weight_fraction_leaf=0.0, n_estimators=100,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=6069, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, verbose=True, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7f45e2097160>, return_train_score=False, kwargs={'subsample': 0.5, 'n_estimators': 130, 'min_samples_split': 9, 'min_samples_leaf': 5, 'min_impurity_decrease': 0.005, 'max_features': 'sqrt', 'max_depth': 4, 'learning_rate': 0.0001})
+2022-11-11 08:12:41,644:INFO:Checking exceptions
+2022-11-11 08:12:41,644:INFO:Importing libraries
+2022-11-11 08:12:41,645:INFO:Copying training dataset
+2022-11-11 08:12:41,652:INFO:Defining folds
+2022-11-11 08:12:41,653:INFO:Declaring metric variables
+2022-11-11 08:12:41,661:INFO:Importing untrained model
+2022-11-11 08:12:41,661:INFO:Declaring custom model
+2022-11-11 08:12:41,670:INFO:Gradient Boosting Classifier Imported succesfully
+2022-11-11 08:12:41,683:INFO:Starting cross validation
+2022-11-11 08:12:41,683:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=1
+2022-11-11 08:13:00,245:INFO:Calculating mean and std
+2022-11-11 08:13:00,245:INFO:Creating metrics dataframe
+2022-11-11 08:13:00,255:INFO:Finalizing model
+2022-11-11 08:13:02,343:INFO:Uploading results into container
+2022-11-11 08:13:02,343:INFO:Uploading model into container now
+2022-11-11 08:13:02,343:INFO:create_model_container: 2
+2022-11-11 08:13:02,344:INFO:master_model_container: 2
+2022-11-11 08:13:02,344:INFO:display_container: 3
+2022-11-11 08:13:02,344:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.0001, loss='deviance', max_depth=4,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.005, min_impurity_split=None,
+                           min_samples_leaf=5, min_samples_split=9,
+                           min_weight_fraction_leaf=0.0, n_estimators=130,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=6069, subsample=0.5, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2022-11-11 08:13:02,344:INFO:create_model() succesfully completed......................................
+2022-11-11 08:13:02,447:INFO:SubProcess create_model() end ==================================
+2022-11-11 08:13:02,454:INFO:create_model_container: 2
+2022-11-11 08:13:02,455:INFO:master_model_container: 2
+2022-11-11 08:13:02,455:INFO:display_container: 3
+2022-11-11 08:13:02,455:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.0001, loss='deviance', max_depth=4,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.005, min_impurity_split=None,
+                           min_samples_leaf=5, min_samples_split=9,
+                           min_weight_fraction_leaf=0.0, n_estimators=130,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=6069, subsample=0.5, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2022-11-11 08:13:02,455:INFO:tune_model() succesfully completed......................................
+2022-11-11 08:13:22,472:INFO:Initializing plot_model()
+2022-11-11 08:13:22,473:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.0001, loss='deviance', max_depth=4,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.005, min_impurity_split=None,
+                           min_samples_leaf=5, min_samples_split=9,
+                           min_weight_fraction_leaf=0.0, n_estimators=130,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=6069, subsample=0.5, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=confusion_matrix, plot_kwargs=None, save=False, scale=1, system=True)
+2022-11-11 08:13:22,474:INFO:Checking exceptions
+2022-11-11 08:13:22,475:INFO:Preparing display monitor
+2022-11-11 08:13:22,481:INFO:Preloading libraries
+2022-11-11 08:13:22,493:INFO:Copying training dataset
+2022-11-11 08:13:22,498:INFO:Copying test dataset
+2022-11-11 08:13:22,501:INFO:Plot type: confusion_matrix
+2022-11-11 08:13:22,504:INFO:Initializing get_config()
+2022-11-11 08:13:22,505:INFO:get_config(variable=prep_pipe)
+2022-11-11 08:13:22,511:INFO:Global variable: prep_pipe returned as Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='default',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_stra...
+                ('dummy', Dummify(target='default')),
+                ('fix_perfect', Remove_100(target='default')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       correlation_with_target_threshold=0.0,
+                                       target_variable='default',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-11-11 08:13:22,511:INFO:get_config() succesfully completed......................................
+2022-11-11 08:13:22,537:INFO:Fitting Model
+2022-11-11 08:13:22,538:INFO:Scoring test/hold-out set
+2022-11-11 08:13:22,737:INFO:Visual Rendered Successfully
+2022-11-11 08:13:22,840:INFO:plot_model() succesfully completed......................................
+2022-11-11 08:17:30,568:INFO:Initializing predict_model()
+2022-11-11 08:17:30,568:INFO:predict_model(estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.0001, loss='deviance', max_depth=4,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.005, min_impurity_split=None,
+                           min_samples_leaf=5, min_samples_split=9,
+                           min_weight_fraction_leaf=0.0, n_estimators=130,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=6069, subsample=0.5, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-11-11 08:17:30,568:INFO:Checking exceptions
+2022-11-11 08:17:30,568:INFO:Preloading libraries
+2022-11-11 08:17:30,570:INFO:Preparing display monitor
